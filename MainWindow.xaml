@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="450">
     <Grid x:Name="layoutGrid" Height="450" Width="450">
-        <TextBlock Margin="191,184,191,250">Авторизация</TextBlock>
-        <TextBlock Margin="117,209,297,224">Login:</TextBlock>
-        <TextBlock Margin="98,231,298,200">Password:</TextBlock>
-        <TextBox Name="TextBoxLogin" Width="150" Height="15" Margin="150,210,150,225"/>
-        <PasswordBox Name="TextBoxPassword" Width="150" Height="15" PasswordChar="*" Margin="150,225,150,195" />
-        <Button x:Name="button1" Width="60" Height="20" Content="Войти" Click="Button_Click" Margin="195,252,195,178" />
+        <TextBlock Margin="174,152,134,282">Авторизация и Регистрация</TextBlock>
+        <TextBlock Margin="117,182,297,251">Login:</TextBlock>
+        <TextBlock Margin="98,204,298,227">Password:</TextBlock>
+        <TextBox Name="TextBoxLogin" Height="15" Margin="150,183,111,252"/>
+        <PasswordBox Name="TextBoxPassword" Height="15" PasswordChar="*" Margin="150,206,111,230" />
+        <Button x:Name="button1" Height="20" Content="Войти" Click="Button_Click" Margin="150,225,231,205" />
+        <Button x:Name="button2" Height="20" Content="Зарегистрироваться" Click="Button_Click2" Margin="225,225,111,205" />
     </Grid>
 </Window>
