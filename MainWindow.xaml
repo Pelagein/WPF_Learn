@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_Learn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Learn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="450">
+    <Grid x:Name="layoutGrid" Height="450" Width="450">
+        <TextBlock Margin="191,184,191,250">Авторизация</TextBlock>
+        <TextBlock Margin="117,209,297,224">Login:</TextBlock>
+        <TextBlock Margin="98,231,298,200">Password:</TextBlock>
+        <TextBox Name="TextBoxLogin" Width="150" Height="15" Margin="150,210,150,225"/>
+        <PasswordBox Name="TextBoxPassword" Width="150" Height="15" PasswordChar="*" Margin="150,225,150,195" />
+        <Button x:Name="button1" Width="60" Height="20" Content="Войти" Click="Button_Click" Margin="195,252,195,178" />
+    </Grid>
+</Window>
